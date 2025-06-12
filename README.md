@@ -137,13 +137,3 @@ terraform destroy -auto-approve
 ```
 
 ---
-
-##  Further Reading
-
-* [GitHub Markdown Syntax](https://docs.github.com/en/get-started/writing-on-github/basic-writing-and-formatting-syntax)
-* [Terraform AWS Provider Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-* [Ansible Documentation](https://docs.ansible.com/)
-
----
-
-*Happy crafting!*
