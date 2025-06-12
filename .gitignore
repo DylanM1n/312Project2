@@ -1,10 +1,19 @@
 # Terraform
-terraform/terraform.tfstate*
-terraform/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform/
 
 # Ansible
-ansible/\*.retry
+ansible/*.retry
+.ansible/
 
-# SSH keys
+# SSH / AWS keys
 minecraftKey
 minecraftKey.pub
+
+# Systemd unit backups, logs
+*.bak
+
+# IDE & OS files
+.vscode/
+.DS_Store

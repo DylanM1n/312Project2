@@ -1,0 +1,14 @@
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/opt/minecraft
+ExecStart=/usr/bin/java -Xms512M -Xmx1024M -jar server.jar nogui
+ExecStop=/bin/kill -SIGTERM $MAINPID
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
