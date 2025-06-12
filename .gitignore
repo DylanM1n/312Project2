@@ -17,3 +17,4 @@ minecraftKey.pub
 # IDE & OS files
 .vscode/
 .DS_Store
+ansible/awscred.txt
